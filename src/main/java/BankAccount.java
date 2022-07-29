@@ -10,6 +10,15 @@
 public class BankAccount {
     public int accountNumber;
     private boolean activated;
+    private int id;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public boolean isActivated() {
         return activated;

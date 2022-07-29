@@ -9,6 +9,8 @@
  */
 public class House {
     protected int rooms;
+    public String adddress;
+    
     
     public House(int rooms){
         this.rooms = rooms;

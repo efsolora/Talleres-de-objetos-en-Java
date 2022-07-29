@@ -11,6 +11,7 @@ public class Fruit {
     public String name;
     protected float averageWeight;
     private String[] colors;
+    public String taste;
 
     public String[] getColors() {
         return colors;

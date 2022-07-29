@@ -9,6 +9,7 @@
  */
 public class Animal {
     public String type;
+    public String name;
     
     public Animal(String type){
         this.type = type;

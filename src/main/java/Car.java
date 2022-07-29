@@ -8,11 +8,12 @@
  * @author rolin
  */
 public class Car {
-    
+    public String color;
     public boolean start;
     
     public Car(boolean start){
-        this.start=start;     
+        this.start=start;
+        
     }
     
     private void  startCar (){       

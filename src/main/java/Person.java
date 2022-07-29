@@ -16,6 +16,8 @@ public class Person {
     public String lastName2;
     public Date dateBirth;
     public float heigth;
+    public int age;
+    public String nickName;
     
     public String getName() {
         return name;
